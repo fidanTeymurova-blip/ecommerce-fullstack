@@ -1,14 +1,14 @@
 # 🛒 E-Commerce Fullstack Platform
 
-A modern fullstack e-commerce web application built for learning and portfolio purposes.
+A modern fullstack e-commerce web application built with React + TypeScript frontend and ASP.NET Core 8 Web API backend.
 
 ---
 
 ## 🚀 Project Overview
 
-This project is a simple but real-world inspired online shopping platform with full authentication, product management, cart system, and order processing.
+This project is a real-world inspired e-commerce platform with authentication, product management, shopping cart, and order processing.
 
-It demonstrates fullstack development skills using React frontend and ASP.NET Core backend.
+It demonstrates fullstack development skills using modern web technologies.
 
 ---
 
@@ -30,12 +30,7 @@ It demonstrates fullstack development skills using React frontend and ASP.NET Co
 
 ### Database
 - MySQL
-- Tables:
-  - Users
-  - Products
-  - Categories
-  - Orders
-  - OrderItems
+- Users, Products, Categories, Orders, OrderItems
 
 ---
 
@@ -46,20 +41,20 @@ It demonstrates fullstack development skills using React frontend and ASP.NET Co
 - Login with JWT
 - Protected routes
 
-### 🛍️ Product System
+### 🛍️ Products
 - Product listing
 - Category filtering
 - Search functionality
 
-### 🛒 Shopping Cart
-- Add/remove products
+### 🛒 Cart System
+- Add / remove products
 - Quantity management
 - Persistent cart state
 
 ### 📦 Orders
-- Place order
+- Place orders
 - Order history
-- User-specific orders
+- User-specific data
 
 ---
 
@@ -77,7 +72,7 @@ ecommerce-fullstack
 
 ---
 
-## ⚙️ How to Run Locally
+## ⚙️ Running the Project Locally
 
 ### Backend
 
@@ -100,27 +95,19 @@ Frontend runs on:
 http://localhost:5173
 🔗 API Connection
 
-Frontend connects to backend via Axios:
+Frontend connects to backend using Axios:
 
 baseURL = "https://localhost:5062/api"
-📌 Why This Project?
+📌 Purpose
 
 This project was built to demonstrate:
 
 Fullstack development skills
 REST API design
-Authentication systems (JWT)
+JWT authentication
 Real-world e-commerce logic
 Frontend state management
-
-It is suitable for:
-
-Junior Fullstack Developer roles
-Internship applications
-Portfolio showcase
 👩‍💻 Author
-Fidan Teymurova
-GitHub: fidanTeymurova-blip
 
 Fidan Teymurova
 GitHub: fidanTeymurova-blip
